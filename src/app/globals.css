@@ -124,3 +124,4 @@
     @apply bg-background text-foreground;
   }
 }
+@layer utilities { .eva-effects { filter: blur(0.5px) contrast(1.1) brightness(0.95); } .eva-chromatic { text-shadow: 2px 0px 0px rgba(0,255,255,0.7), -2px 0px 0px rgba(255,0,255,0.7); } }
